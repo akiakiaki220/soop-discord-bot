@@ -3,7 +3,7 @@ name = "soupnotify"
 version = "0.1.0"
 description = "Get notified when your favorite streamers go live on SOOP."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 license = { file = "LICENSE" }
 authors = [{ name = "Community" }]
 
