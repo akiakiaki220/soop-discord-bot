@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: soop-bot
+    env: python
+    plan: free
+    buildCommand: "pip install uv && uv sync"
+    startCommand: "python -m uv run python -m soupnotify.bot"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
