@@ -8,3 +8,6 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
+
+      - key: DATABASE_URL
+        value: postgresql+psycopg://t1mily_soop_postgres_user:Q0M7tFsSxaz1Rl1bEc9S0NbJEWgpH6ht@dpg-d77g3fh4tr6s73cvcf50-a.oregon-postgres.render.com/t1mily_soop_postgres
